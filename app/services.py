@@ -1,6 +1,11 @@
 # Lógica
 
-songs = []  # Es una lista, y cada item de la lista es un diccionario que representa una canción y su artista
+# Lista predeterminada de canciones.
+songs = [
+    {"artist": "Superfunk", "title": "Joung MC"},
+    {"artist": "Phikey", "title": "Beach party Set | Rufus Du Sol, Lane 8"},
+    {"artist": "Andrés Arizmendi", "title": "Nena&Copito | Bogotá -Platzi Conf 2024"}
+]
 
 def update_song(index, new_data):
     # Verificar que canción exista
