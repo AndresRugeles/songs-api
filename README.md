@@ -13,6 +13,7 @@ Andrés Rugeles
 - Gunicorn (servidor de producción)
 - Flask-Limiter (rate limiting)
 - dicttoxml (soporte XML)
+- Requests → Usada para las pruebas de QA
 
 ---
 
@@ -25,6 +26,7 @@ También puede instalar manualmente las siguientes bibliotecas:
 - pip install dicttoxml
 - pip install gunicorn
 - pip install flask-limiter
+- pip install requests
 
 ## EndPoint
 La API se encuentra desplegada en Render:
